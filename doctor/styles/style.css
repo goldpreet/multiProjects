@@ -1,0 +1,160 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url("../images/stethoscope.png");
+  background-size: 800px 500px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  /* border: 2px solid maroon; */
+
+
+}
+
+/* navbar */
+
+.navbar {
+  /* border: 1px solid red; */
+}
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 100px;
+}
+.header-section ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 40px;
+   padding: 0px 110px;
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+}
+.header-section ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+}
+
+#logo {
+    padding: 20px 80px;
+}
+/* main-section */
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 40px; */
+
+  
+}
+
+/* left-main */
+
+.left-main {
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: left;
+    gap: 16px;
+    margin-left: 160px;
+
+    /* justify-content:space-between; */
+  
+}
+
+.left-main h1 {
+/* 
+    border: 1px solid green; */
+  font-size: 70px;
+  font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Red Rose', cursive;
+
+   /* font-weight: 1800; */
+}
+.left-main p {
+    /* border: 1px solid green; */
+    font-family: 'Times New Roman', Times, serif;
+    /* padding: 20px 60px; */
+    /* margin: 5px 100px; */
+    color: grey;
+}
+.left-main button {
+    color: white;
+    background-color: #2ab880;
+   
+  border-radius: 27px;
+  padding: 13px 19px;
+  /* margin: 6px; */
+  font-size: 21px;
+  font-weight: 700;
+  box-shadow: none;
+  width: 230px;
+  /* border: 0px solid; */
+  border: none;
+ 
+
+}
+#top{
+    /* border: 2px solid yellow; */
+    padding: 10px 15px;
+    
+}
+#bottom{
+  gap:90px;
+    /* border: 2px solid green; */
+    padding-left: 85%;
+    position: relative;
+    top: -60px;
+}
+#mouse{
+/* border: 2px solid black; */
+position: relative;
+top: -80px;
+left: 590px;
+padding-top: 20px;
+padding-left: 7px;
+}
+
+
+/* right main */
+
+.right-main {
+  
+    /* border: 3px solid yellow; */
+    position: relative;
+  
+}
+
+#doctor{
+
+    z-index: 10;
+    /* border: 1px solid red; */
+    margin-top: -90px;
+    
+}
+
+#green-box{
+position: absolute;
+right: 10px;
+z-index: -6;
+top: 50px;
+}
+
+#yellow-box{
+    position: absolute;
+    right: 0;
+    z-index: -10;
+    top:100px;
+    left: 80px;
+}
+
+
+    

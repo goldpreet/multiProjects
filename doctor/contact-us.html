@@ -1,0 +1,148 @@
+<!-- <form action="">
+
+        <label for="name">NAME</label>
+        <input type="text" id="name">
+    </form> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project 6</title>
+    <link rel="stylesheet" href="./styles/style-contact_us.css" />
+
+    <!-- styling -->
+
+    <style>
+      input[type="text"] {
+       
+        padding: 5px 9px;
+        /* margin: 8px 0;
+  border: 1px solid #ccc; */
+        border-radius: 6px;
+        border: none;
+      }
+     
+      #form {
+        /* border: 1px solid red; */
+        /* width: 700px; */
+        /* height: 500px; */
+        padding: 10px;
+        display: flex;
+        border-radius: 7px;
+        flex-direction: column;
+        align-content: center;
+        gap: 20px;
+        box-shadow: rgba(25, 26, 27, 0.3) 0px 1px 2px 0px, rgba(16, 16, 16, 0.15) 0px 2px 6px 2px;
+
+        /* justify-content: space-between; */
+      }
+      input{
+        width: 100px;
+      }
+      #form div textarea{
+        width: 250px;
+      }
+
+      #form div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      #form{
+        /* position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center; */
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+   
+      }
+      .form-box {
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  /* border: 1px solid red; */
+  height: 80vh;
+      }
+
+      #form div input{
+        width: 230px;
+      }
+
+      input[type="submit"] {
+        width: 250px;
+      
+        background-color: #21bd7e;
+        color: white;
+        padding: 8px 10px;
+        align-items: center;
+        font-size: 17px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: none;
+      }
+      #form h1{
+      text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <div class="header-section">
+        <img src="./images/logo.png" id="logo" alt="logo" />
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about-us.html">About Us</a></li>
+          <li><a href="./contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- form -->
+    <div class="form-box">
+      
+      <form action="#" id="form">
+        <h1>Contact Form</h1>
+        <div>
+          <label for="name"> Name </label>
+          <input
+        
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div>
+          <label for="email">Email </label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </div>
+
+        <div>
+          <label for="message">Message</label>
+
+          <textarea
+            placeholder="Enter your message"
+            rows="5"
+            cols="5"
+          ></textarea>
+        </div>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
